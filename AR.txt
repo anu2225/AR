@@ -130,3 +130,36 @@ int main()
 	  }while(ans=='y'||ans=='Y');
 return 1;
   }
+  
+  
+  
+  
+  Algorithm
+  Start the program.
+Open the sequential file containing the student information.
+Display a menu of options for the user:
+a. Add information
+b. Delete information
+c. Display information of a particular student
+d. Exit the program
+Prompt the user to choose an option from the menu.
+If the user chooses to add information:
+a. Prompt the user to enter the roll number, name, division, and address of the student.
+b. Append the student information to the end of the sequential file.
+c. Display a message confirming the successful addition of the student information.
+If the user chooses to delete information:
+a. Prompt the user to enter the roll number of the student to be deleted.
+b. Search for the student information with the specified roll number in the sequential file.
+c. If found, delete the record from the sequential file.
+d. Display a message confirming the successful deletion of the student information.
+e. If not found, display an appropriate message indicating that the record does not exist.
+If the user chooses to display information of a particular student:
+a. Prompt the user to enter the roll number of the student to be displayed.
+b. Search for the student information with the specified roll number in the sequential file.
+c. If found, display the student details (roll number, name, division, and address).
+d. If not found, display an appropriate message indicating that the record does not exist.
+If the user chooses to exit the program, close the sequential file and end the program.
+If the user chooses an invalid option, display an error message and return to the menu.
+Repeat steps 4-9 until the user chooses to exit the program.
+End the program.
+
